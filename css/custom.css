@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../assets/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#header {
+	width: 100%;
+	background-color: transparent;
+	transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+	width: auto;
+}
+
+#header .nav-item {
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-left: 0;
+	padding-right: 0;
+	color: black;
+	border-bottom: solid 4px transparent;
+}
+
+#header .nav-item:hover {
+	border-bottom: solid 4px var(--hover);
+	color: var(--secondary);
+}
+
+/* #slider {
+	background: url(../assets/bg-slider.jpg) center bottom no-repeat;
+	background-size: cover;
+} */
+
+#slider h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+#slider h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+#slider img {
+	width: 50%;
+}
+
+#sobre h3 {
+	color: rgba(255, 255, 255);
+}
+
+#sobre p {
+	color: rgba(255, 255, 255, .75);
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+
+}
+
+#sobre a {
+	color: inherit;
+}
+
+#portfolio h3 {
+	color: rgba(255, 255, 255);
+}
+
+#portfolio h4 {
+	color: rgba(255, 255, 255, .40);
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+}

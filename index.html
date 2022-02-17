@@ -2,51 +2,127 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guilherme Oliveira - Portfólio</title>
-    <meta name="description"
-        content="Este é um projeto simples que visa agrupar meus projetos, mostrando meus conhecimentos de Html/Css/Js/React/Ts/Nest.js/Bootstrap">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./stylesheet.css">
-    <script src="./scripts.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Criada para apresentar o trabalho de um Desenvolvedor Front-End">
+	<title>Guilherme Oliveira - Portfólio</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/main.css">
 </head>
-<header>
-    <nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="#">Guilherme Oliveira</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="https://github.com/oguuiholiv">Github</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
-    </nav>
-</header>
 
 <body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
+	<!-- HEADER INICIA -->
+	<div id="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark d-flex">
+				<a class="navbar-brand" href="#">Guilherme Oliveira</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#sobre">Quem sou?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfólio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contatos</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								mais
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="https://github.com/oguuiholiv">GitHub</a>
+								<a class="dropdown-item" href="https://www.linkedin.com/in/oguuiholiv/">Linkedin</a>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- //HEADER -->
+	<!-- SLIDER -->
+	<div id="slider">
+		<div class="container pb-5">
+			<div class="row">
+				<div class="col-md-6 align-self-center text-center">
+					<h1>Desenvolvedor</h1>
+					<h3>Front-End</h3>
+					<a href="#sobre"
+						class="btn btn-button-primary btn-primary btn-button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Saiba
+						mais</a>
+					<a href="#"
+						class="btn btn-button-secondary-outline btn-outline-primary btn-button d-md-inline-block d-block">E-mail</a>
+				</div>
+				<div class="col-md-6 d-flex justify-content-center flex-row-reverse">
+					<img src="./assets/icon.png" class="img-fluid" />
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- //SLIDER -->
+
+	<!-- QUEM SOU -->
+	<div id="sobre">
+		<div class="container pt-5 pb-5">
+			<div class="row">
+				<div class="col-md-12 align-self-center text-center">
+					<h3 id="sobre">Quem sou?</h3>
+					<p>Olá mundo, meu nome é Guilherme Oliveira, tenho 23 anos, sou cristão,
+						guitarrista/adorador, frequento a igreja <a href="https://www.boladeneve.com" target="_blank"
+							rel="noreferrer noopener"><i>Bola de Neve</i></a> e sou apaixonado pelo Desenvolvimento Front-End.
+						Ultimamente tenho dedicado muito tempo para ingressar no mercado de trabalho nesta área.
+						Antes de me encontrar no Front-End eu trabalhava como Auxiliar Contábil em um escritório local, e me
+						frustrava diariamente pois sabia que não era a minha área de atuação. Determinado a me tornar um bom
+						desenvolvedor, iniciei este pequeno projeto, utilizando <i>html/css/js/bootstrap</i> para mostrar meu
+						conhecimento. Visto que é o primeiro projeto ao qual me dedico inteiramente, sei que encontrarei alguns
+						problemas de coding, principalmente por se tratar de uma página "estática" o código será gigante, mas
+						melhorarei, então venho convida-lo a me seguir no LinkedIn e no Github, os links para meu perfil encontam-se
+						nos botões no header. Acompanhe meu progresso ;D.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //QUEM SOU -->
+
+	<!-- PORTFÓLIO -->
+	<div id="portfolio" class="block">
+		<div class="container pt-5">
+			<h3 class="title text-center">Portfólio</h3>
+			<h4 class="subtitle text-center mb-4">Os projetos a seguir se encontram no GitHub</h4>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+					<a href="#" class="destaque">
+						<div class="img-container mb-3">
+							<img src="./assets/github.png" class="img-fluid">
+						</div>
+						<h5>To do</h5>
+						<p class="mb-0"><i>ToDo List</i> criado usando React</p>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- //PORTFÓLIO -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>

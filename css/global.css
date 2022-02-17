@@ -1,0 +1,23 @@
+.btn-button {
+  text-transform: lowercase;
+  font-weight: 300;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.btn-button-primary{
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-button-primary:hover{
+  background-color: var(--quarternary);
+  border-color: var(--quarternary);
+}
+.btn-button-secondary-outline{
+  border-color: var(--quarternary);
+  color: var(--quarternary);
+}
+.btn-button-secondary-outline:hover{
+  background-color: var(--quinary);
+  border-color: var(--quinary);
+}
