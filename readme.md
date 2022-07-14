@@ -4,6 +4,6 @@
 - [x] Criar Header
     - [x] Atualizar Header
 - [x] Criar Pagina Sobre
-- [] Criar página de Portfólio -> redirecionando para o github do projeto
-- [] Criar página de Contatos
-- [] Criar Footer
+- [x] Criar página de Portfólio -> redirecionando para o github do projeto
+- [x] Criar página de Contatos
+- [x] Criar Footer
